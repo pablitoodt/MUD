@@ -1,0 +1,17 @@
+{
+    "name": "lucas/mud",
+    "require": {
+        "jugid/staurie": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyl\\Mud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neyzar",
+            "email": "lucas.narguet451@gmail.com"
+        }
+    ]
+}
