@@ -4,17 +4,17 @@ namespace Pyl\Mud\Npcs;
 
 use Jugid\Staurie\Game\Npc;
 
-class Npcs extends Npc {
+class Theo extends Npc {
   public function name() : string 
   {
-    return "The name of the goat is 'La Chèvre'";
+    return "Theo";
   }
   public function description(): string
   {
-    return "'La Chèvre' is a goat";
+    return "Tours's citizen";
   }
   public function speak(): string|array
   {
-    return "You find me! You are a winner!";
+    return "Hello there!";
   }
 }
