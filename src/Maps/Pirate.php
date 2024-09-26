@@ -4,9 +4,8 @@ namespace Pyl\Mud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
-use Jugid\Staurie\Example\Npcs\Cain;
-use Jugid\Staurie\Example\Items\Sword;
-use Jugid\Staurie\Example\Monsters\Bouftou;
+use Pyl\Mud\Items\Doliprane;
+use Pyl\Mud\Npcs\Goat;
 
 class Pirate extends Blueprint {
 
@@ -30,14 +29,14 @@ class Pirate extends Blueprint {
     }
 
     public function npcs() : array {
-        return [new Cain()];
+        return [new Goat()];
     }
 
     public function items() : array {
-        return [new Sword()];
+        return [new Doliprane()];
     }
 
     public function monsters() : array {
-        return [new Bouftou()];
+        return [];
     }
 }
