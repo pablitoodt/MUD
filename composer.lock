@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c25beca1053fd3142f42e457072e4f45",
+    "content-hash": "6fd33f2d587f036b13f4fe28ac422dba",
     "packages": [
         {
             "name": "jugid/staurie",

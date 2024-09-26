@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Npcs;
+namespace Pyl\Mud\Npcs;
 
 use Jugid\Staurie\Game\Npc;
 

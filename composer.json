@@ -1,7 +1,8 @@
 {
     "name": "lucas/mud",
     "require": {
-        "jugid/staurie": "^1.1"
+        "jugid/staurie": "^1.1",
+        "symfony/finder": "^6.4"
     },
     "autoload": {
         "psr-4": {

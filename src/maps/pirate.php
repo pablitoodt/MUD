@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Example\Maps;
+namespace Pyl\Mud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
@@ -8,13 +8,13 @@ use Jugid\Staurie\Example\Npcs\Cain;
 use Jugid\Staurie\Example\Items\Sword;
 use Jugid\Staurie\Example\Monsters\Bouftou;
 
-class Map01 extends Blueprint {
+class Pirate extends Blueprint {
 
     private Position $position;
 
     public function __construct()
     {
-        $this->position = new Position(2,4);
+        $this->position = new Position(0,0);
     }
 
     public function name() : string {
