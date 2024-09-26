@@ -8,21 +8,21 @@ use Jugid\Staurie\Example\Npcs\Cain;
 use Jugid\Staurie\Example\Items\Sword;
 use Jugid\Staurie\Example\Monsters\Bouftou;
 
-class Pirate extends Blueprint {
+class Alexandra extends Blueprint {
 
     private Position $position;
 
     public function __construct()
     {
-        $this->position = new Position(0,0);
+        $this->position = new Position(3,5);
     }
 
     public function name() : string {
-        return 'Pirate';
+        return "alexandra";
     }
 
     public function description() : string {
-        return 'Bienvenue au Pirate install toi et goute a nous doux breuvage ';
+        return "Au alexandra la cuite t'y attendra";
     }
 
     public function position() : Position {
