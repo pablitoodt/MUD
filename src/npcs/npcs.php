@@ -15,6 +15,6 @@ class Npcs extends Npc {
   }
   public function speak(): string|array
   {
-    return "You find me!";
+    return "You find me! You are a winner!";
   }
 }
