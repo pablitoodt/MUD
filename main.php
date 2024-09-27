@@ -1,5 +1,6 @@
 <?php
 
+use Jugid\Staurie\Component\Character\MainCharacter;
 use Jugid\Staurie\Component\Character\Statistics;
 use Jugid\Staurie\Component\Console\Console;
 use Jugid\Staurie\Component\Map\Blueprint;
@@ -23,10 +24,11 @@ $menu = $container->registerComponent(Menu::class);
 $menu->configuration([
     "text"=> "Welcome to MUD!",
     "labels"=> [
-    "new game"=> "Enter the world",
+    "new_game"=> "Enter the world",
     "quit"=> "Exit game",
     ]
 ]);
+
 
 $map = $container->registerComponent(Map::class);
 $map->configuration([
@@ -34,13 +36,13 @@ $map->configuration([
     'namespace'=>'Pyl\Mud\Maps', 
 ]);
 
-    $stats = new Statistics();
-    $stats
+
+$stats = new Statistics();
+$stats
     ->addDefault("alcohol blood level", 0)
     ->addDefault("chance", 0)
 ;
-
-$character = $container->registerComponent(Map::class);
+$character = $container->registerComponent(MainCharacter::class);
 $character->configuration([
     "statistics" => $stats
 ]);
