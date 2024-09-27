@@ -6,8 +6,9 @@ use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
 use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\NpcsBlueprint;
 
-class SerpentVolant extends Blueprint {
+class SerpentVolant extends NpcsBlueprint {
 
     private Position $position;
 
@@ -29,7 +30,7 @@ class SerpentVolant extends Blueprint {
     }
 
     public function npcs() : array {
-        return [new Goat()];
+        return $this->npcs;
     }
 
     public function items() : array {

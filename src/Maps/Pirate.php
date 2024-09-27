@@ -6,8 +6,10 @@ use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
 use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\Npcs\Lucas;
+use Pyl\Mud\NpcsBlueprint;
 
-class Pirate extends Blueprint {
+class Pirate extends NpcsBlueprint {
 
     private Position $position;
 
@@ -29,10 +31,8 @@ class Pirate extends Blueprint {
     }
 
     public function npcs() : array {
-        $goat = new Goat();
-        $goat = $goat->isPresent($this->name());
-
-        return $goat ? [new Goat()] : [];
+        $this->npcs[] = new Lucas();
+        return $this->npcs;
     }
 
     public function items() : array {
