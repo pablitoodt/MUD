@@ -20,7 +20,8 @@ class Biere extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 10
+      'chance' => +10,
+      'alchohol blood level' => +6
     ];
   }
 }

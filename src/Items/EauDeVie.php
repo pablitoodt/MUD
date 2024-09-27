@@ -20,7 +20,8 @@ class EauDeVie extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 90
+      'chance' => +90,
+      'alchohol blood level' => +99
     ];
   }
 }

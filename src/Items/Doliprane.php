@@ -20,7 +20,8 @@ class Doliprane extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 5
+      'chance' => +5,
+      'alchohol blood level' => -20
     ];
   }
 }

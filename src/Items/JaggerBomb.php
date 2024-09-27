@@ -20,7 +20,8 @@ class JaggerBomb extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 15
+      'chance' => +15,
+      'alchohol blood level' => +20
     ];
   }
 }

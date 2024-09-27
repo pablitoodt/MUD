@@ -1,4 +1,6 @@
 <?php
+
+use Jugid\Staurie\Component\Character\Statistics;
 use Jugid\Staurie\Component\Console\Console;
 use Jugid\Staurie\Component\Menu\Menu;
 use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
@@ -14,10 +16,21 @@ $container = $staurie->getContainer();
 
 $menu = $container->registerComponent(Menu::class);
 
+$menu->configuration([
+  "text"=> "Welcome to MUD!",
+  "labels"=> [
+    "new game"=> "Enter the world",
+    "quit"=> "Exit game",
+  ]
+  ]);
+
 $map = $container->registerComponent(Map::class);
 $map->configuration([
     'directory'=>__DIR__.'/src/Maps',
     'namespace'=>'Pyl\Mud\Maps', 
   ]);
+
+  $stats = new Statistics();
+  $this->stats["alcohol blood level"] = 0;
 
 $staurie->run(); //LANCE LE JEU

@@ -20,7 +20,8 @@ class DoubleJaggerBomb extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 20
+      'chance' => +20,
+      'alchohol blood level' => +15
     ];
   }
 }

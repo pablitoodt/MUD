@@ -20,7 +20,8 @@ class Tgv extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 30
+      'chance' => +30,
+      'alchohol blood level' => +25
     ];
   }
 }

@@ -20,7 +20,8 @@ class Mojito extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 12
+      'chance' => 12,
+      'alchohol blood level' => +8
     ];
   }
 }
