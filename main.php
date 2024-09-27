@@ -31,6 +31,15 @@ $map->configuration([
   ]);
 
   $stats = new Statistics();
-  $this->stats["alcohol blood level"] = 0;
+  $stats
+    ->addDefault("alcohol blood level", 0)
+    ->addDefault("chance", 0)
+  ;
+  
+$character = $container->registerComponent(Map::class);
+$character->configuration([
+    "statistics" => $stats
+  ]);
 
+  
 $staurie->run(); //LANCE LE JEU
