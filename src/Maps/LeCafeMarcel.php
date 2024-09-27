@@ -7,21 +7,21 @@ use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
 use Pyl\Mud\Npcs\Goat;
 
-class Manufacture extends Blueprint {
+class LeCafeMarcel extends Blueprint {
 
     private Position $position;
 
     public function __construct()
     {
-        $this->position = new Position(3,5);
+        $this->position = new Position(3,1);
     }
 
     public function name() : string {
-        return "Manufacture map";
+        return "Le Café Marcel";
     }
 
     public function description() : string {
-        return "vient mon copaing";
+        return "Familial et chaleureux, situé dans le centre historique";
     }
 
     public function position() : Position {
