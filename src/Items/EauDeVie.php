@@ -4,13 +4,13 @@ namespace Pyl\Mud\Items;
 
 use Jugid\Staurie\Game\Item_Equippable;
 
-class Doliprane extends Item_Equippable {
+class EauDeVie extends Item_Equippable {
   public function name(): string {
-    return "Doliprane";
+    return "Eau de vie";
   }
 
   public function description(): string {
-    return "Reduces blood alcohol content without reducing luck.";
+    return "Gives you one last chance to find the goat.";
   }
 
   public function body_part(): string {
@@ -20,7 +20,7 @@ class Doliprane extends Item_Equippable {
   public function statistics(): array
   {
     return [
-      'chance' => 5
+      'chance' => 90
     ];
   }
 }
