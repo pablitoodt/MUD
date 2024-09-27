@@ -13,15 +13,15 @@ class BelleEpoque extends Blueprint {
 
     public function __construct()
     {
-        $this->position = new Position(4,5);
+        $this->position = new Position(0,5);
     }
 
     public function name() : string {
-        return "Belle époque map";
+        return "Belle époque";
     }
 
     public function description() : string {
-        return "Au alexandra la cuite t'y attendra";
+        return "le ginTo violette t'attend";
     }
 
     public function position() : Position {

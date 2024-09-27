@@ -13,7 +13,7 @@ class Cabane extends Blueprint {
 
     public function __construct()
     {
-        $this->position = new Position(2,2);
+        $this->position = new Position(1,2);
     }
 
     public function name() : string {

@@ -7,21 +7,21 @@ use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
 use Pyl\Mud\Npcs\Goat;
 
-class Manufacture extends Blueprint {
+class Newloc extends Blueprint {
 
     private Position $position;
 
     public function __construct()
     {
-        $this->position = new Position(3,5);
+        $this->position = new Position(4,0);
     }
 
     public function name() : string {
-        return "Manufacture map";
+        return "Newloc";
     }
 
     public function description() : string {
-        return "vient mon copaing";
+        return "Bar populaire avec une déco moderne, bonne ambiance en soirée";
     }
 
     public function position() : Position {
