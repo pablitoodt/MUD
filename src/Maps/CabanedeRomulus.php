@@ -17,7 +17,7 @@ class CabanedeRomulus extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Cabane de Romulus";
+        return "CabaneDeRomulus";
     }
 
     public function description() : string {

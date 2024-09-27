@@ -17,7 +17,7 @@ class AuFutEtAMesure extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Au Fût et à Mesure";
+        return "AuFutEtAMesure";
     }
 
     public function description() : string {

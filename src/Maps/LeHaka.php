@@ -17,7 +17,7 @@ class LeHaka extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Le Haka";
+        return "LeHaka";
     }
 
     public function description() : string {

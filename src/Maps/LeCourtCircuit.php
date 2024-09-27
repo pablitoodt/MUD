@@ -17,7 +17,7 @@ class LeCourtCircuit extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Le Court-Circuit";
+        return "LeCourtCircuit";
     }
 
     public function description() : string {

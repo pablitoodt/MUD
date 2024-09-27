@@ -17,7 +17,7 @@ class LePale extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Le Pale";
+        return "LePale";
     }
 
     public function description() : string {

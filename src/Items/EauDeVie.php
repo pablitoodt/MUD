@@ -6,7 +6,7 @@ use Jugid\Staurie\Game\Item_Equippable;
 
 class EauDeVie extends Item_Equippable {
   public function name(): string {
-    return "Eau de vie";
+    return "EauDeVie";
   }
 
   public function description(): string {

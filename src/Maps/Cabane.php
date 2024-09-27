@@ -18,7 +18,7 @@ class Cabane extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return 'Cabane map';
+        return 'Cabane';
     }
 
     public function description() : string {

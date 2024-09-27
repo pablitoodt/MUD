@@ -17,7 +17,7 @@ class LaCaveAMousse extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "La Cave à Mousse";
+        return "LaCaveAMousse";
     }
 
     public function description() : string {

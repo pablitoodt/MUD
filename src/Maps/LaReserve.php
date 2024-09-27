@@ -17,7 +17,7 @@ class LaReserve extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "la Réserve";
+        return "LaReserve";
     }
 
     public function description() : string {

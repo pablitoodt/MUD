@@ -18,7 +18,7 @@ class SerpentVolant extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Serpent Volant";
+        return "SerpentVolant";
     }
 
     public function description() : string {

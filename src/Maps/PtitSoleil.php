@@ -17,7 +17,7 @@ class PtitSoleil extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "P'tit Soleil";
+        return "PtitSoleil";
     }
 
     public function description() : string {

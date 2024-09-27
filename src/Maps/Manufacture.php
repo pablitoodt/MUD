@@ -17,7 +17,7 @@ class Manufacture extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Manufacture map";
+        return "Manufacture";
     }
 
     public function description() : string {

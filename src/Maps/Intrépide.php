@@ -17,7 +17,7 @@ class Intrépide extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Intrépide";
+        return "Intrepide";
     }
 
     public function description() : string {

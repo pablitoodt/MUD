@@ -18,11 +18,11 @@ class Alexandra extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "alexandra";
+        return "Alexandra";
     }
 
     public function description() : string {
-        return "Au alexandra la cuite t'y attendra";
+        return "Au Alexandra la cuite t'y attendra";
     }
 
     public function position() : Position {

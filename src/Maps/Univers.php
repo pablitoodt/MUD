@@ -17,11 +17,11 @@ class Univers extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "L'Univers";
+        return "Univers";
     }
 
     public function description() : string {
-        return "Au Alexandra la cuite t'y attendra";
+        return "A Univers la cuite t'y attendra";
     }
 
     public function position() : Position {

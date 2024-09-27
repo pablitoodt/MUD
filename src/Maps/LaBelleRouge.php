@@ -17,7 +17,7 @@ class LaBelleRouge extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "La Belle Rouge";
+        return "LaBelleRouge";
     }
 
     public function description() : string {

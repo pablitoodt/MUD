@@ -18,7 +18,7 @@ class LeCafeMarcel extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Le Café Marcel";
+        return "LeCafeMarcel";
     }
 
     public function description() : string {

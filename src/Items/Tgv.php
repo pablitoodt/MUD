@@ -6,7 +6,7 @@ use Jugid\Staurie\Game\Item_Equippable;
 
 class Tgv extends Item_Equippable {
   public function name(): string {
-    return "TGV";
+    return "Tgv";
   }
 
   public function description(): string {

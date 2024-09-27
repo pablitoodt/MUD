@@ -19,11 +19,11 @@ class Goat extends Npc {
 
   public function name() : string 
   {
-    return "La Chèvre";
+    return "Goat";
   }
   public function description(): string
   {
-    return "A goat";
+    return "Goat";
   }
   public function speak(): string|array
   {

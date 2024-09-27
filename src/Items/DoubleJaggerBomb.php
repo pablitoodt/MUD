@@ -6,7 +6,7 @@ use Jugid\Staurie\Game\Item_Equippable;
 
 class DoubleJaggerBomb extends Item_Equippable {
   public function name(): string {
-    return "Double JaggerBomb";
+    return "DoubleJaggerBomb";
   }
 
   public function description(): string {

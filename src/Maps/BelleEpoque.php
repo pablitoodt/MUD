@@ -17,7 +17,7 @@ class BelleEpoque extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "Belle époque";
+        return "BelleEpoque";
     }
 
     public function description() : string {
