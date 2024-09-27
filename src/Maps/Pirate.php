@@ -29,7 +29,10 @@ class Pirate extends Blueprint {
     }
 
     public function npcs() : array {
-        return [new Goat()];
+        $goat = new Goat();
+        $goat = $goat->isPresent($this->name());
+
+        return $goat ? [new Goat()] : [];
     }
 
     public function items() : array {
