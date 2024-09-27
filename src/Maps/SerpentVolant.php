@@ -5,7 +5,7 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\JaggerBomb;
-use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\Npcs\Pablo;
 use Pyl\Mud\NpcsBlueprint;
 
 class SerpentVolant extends NpcsBlueprint {
@@ -30,6 +30,7 @@ class SerpentVolant extends NpcsBlueprint {
     }
 
     public function npcs() : array {
+        $this->npcs[] = new Pablo();
         return $this->npcs;
     }
 

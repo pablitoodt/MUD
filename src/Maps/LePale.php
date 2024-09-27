@@ -5,7 +5,6 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Shot;
-use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
 class LePale extends NpcsBlueprint {

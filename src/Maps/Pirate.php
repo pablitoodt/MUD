@@ -5,7 +5,6 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Vodka;
-use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\Npcs\Lucas;
 use Pyl\Mud\NpcsBlueprint;
 
@@ -23,7 +22,7 @@ class Pirate extends NpcsBlueprint {
     }
 
     public function description() : string {
-        return 'Bienvenue au Pirate install toi et goute a nous doux breuvage ';
+        return 'Bienvenue au Pirate! Installe toi et goûte a nos doux breuvages.';
     }
 
     public function position() : Position {

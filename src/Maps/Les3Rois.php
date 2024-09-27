@@ -5,7 +5,7 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
-use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\Npcs\Theo;
 use Pyl\Mud\NpcsBlueprint;
 
 class Les3Rois extends NpcsBlueprint {
@@ -30,6 +30,7 @@ class Les3Rois extends NpcsBlueprint {
     }
 
     public function npcs() : array {
+        $this->npcs[] = new Theo();
         return $this->npcs;
     }
 

@@ -5,7 +5,6 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
-use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
 class Univers extends NpcsBlueprint {
@@ -18,11 +17,11 @@ class Univers extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "L’Univers";
+        return "L'Univers";
     }
 
     public function description() : string {
-        return "Au alexandra la cuite t'y attendra";
+        return "Au Alexandra la cuite t'y attendra";
     }
 
     public function position() : Position {

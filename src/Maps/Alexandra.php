@@ -5,7 +5,6 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Doliprane;
-use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\Npcs\Lucas;
 use Pyl\Mud\NpcsBlueprint;
 

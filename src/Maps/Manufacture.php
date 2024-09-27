@@ -5,7 +5,6 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Tgv;
-use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
 class Manufacture extends NpcsBlueprint {
@@ -22,7 +21,7 @@ class Manufacture extends NpcsBlueprint {
     }
 
     public function description() : string {
-        return "vient mon copaing";
+        return "Vient mon copaing";
     }
 
     public function position() : Position {

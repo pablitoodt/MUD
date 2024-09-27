@@ -5,7 +5,7 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Mojito;
-use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\Npcs\Mayor;
 use Pyl\Mud\NpcsBlueprint;
 
 class TroisOrfevres extends NpcsBlueprint {
@@ -30,6 +30,7 @@ class TroisOrfevres extends NpcsBlueprint {
     }
 
     public function npcs() : array {
+        $this->npcs[] = new Mayor();
         return $this->npcs;
     }
 

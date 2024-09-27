@@ -5,7 +5,7 @@ namespace Pyl\Mud\Maps;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 use Pyl\Mud\Items\Biere;
-use Pyl\Mud\Npcs\Goat;
+use Pyl\Mud\Npcs\Mayor;
 use Pyl\Mud\NpcsBlueprint;
 
 class LeViking extends NpcsBlueprint {
@@ -22,7 +22,7 @@ class LeViking extends NpcsBlueprint {
     }
 
     public function description() : string {
-        return "le ginTo cola t'attend";
+        return "Le ginTo cola t'attend";
     }
 
     public function position() : Position {
@@ -30,6 +30,7 @@ class LeViking extends NpcsBlueprint {
     }
 
     public function npcs() : array {
+        $this->npcs[] = new Mayor();
         return $this->npcs;
     }
 
