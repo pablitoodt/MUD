@@ -4,7 +4,7 @@ namespace Pyl\Mud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
-use Pyl\Mud\Items\Doliprane;
+use Pyl\Mud\Items\Vodka;
 use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
@@ -34,7 +34,7 @@ class LaBelleRouge extends NpcsBlueprint {
     }
 
     public function items() : array {
-        return [new Doliprane()];
+        return [new Vodka()];
     }
 
     public function monsters() : array {

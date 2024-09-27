@@ -4,7 +4,7 @@ namespace Pyl\Mud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
-use Pyl\Mud\Items\Doliprane;
+use Pyl\Mud\Items\Ricard;
 use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
@@ -18,7 +18,7 @@ class PtitSoleil extends NpcsBlueprint {
     }
 
     public function name() : string {
-        return "P’tit Soleil";
+        return "P'tit Soleil";
     }
 
     public function description() : string {
@@ -34,7 +34,7 @@ class PtitSoleil extends NpcsBlueprint {
     }
 
     public function items() : array {
-        return [new Doliprane()];
+        return [new Ricard()];
     }
 
     public function monsters() : array {

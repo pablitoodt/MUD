@@ -4,7 +4,7 @@ namespace Pyl\Mud\maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
-use Pyl\Mud\Items\Doliprane;
+use Pyl\Mud\Items\Rhum;
 use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
@@ -34,7 +34,7 @@ class Cabane extends NpcsBlueprint {
     }
 
     public function items() : array {
-        return [new Doliprane()];
+        return [new Rhum()];
     }
 
     public function monsters() : array {

@@ -4,7 +4,6 @@ namespace Pyl\Mud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
-use Pyl\Mud\Items\Doliprane;
 use Pyl\Mud\Npcs\Goat;
 use Pyl\Mud\NpcsBlueprint;
 
@@ -34,7 +33,7 @@ class LaCaveAMousse extends NpcsBlueprint {
     }
 
     public function items() : array {
-        return [new Doliprane()];
+        return [new LaCaveAMousse()];
     }
 
     public function monsters() : array {
